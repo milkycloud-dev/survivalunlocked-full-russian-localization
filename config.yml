@@ -1,0 +1,95 @@
+# =======================================
+# Конфигурация плагина Survival Unlocked
+# =======================================
+
+config:
+  # Текущая версия плагина, не изменяйте это значение
+  version: 1.7.1
+
+modules:
+  # Стойки для брони имеют руки и меняют позы при клике с зажатым Shift.
+  better-armor-stands:
+    enabled: true
+
+  # Трезубцы с чарами Верность возвращаются при падении в пустоту.
+  better-tridents:
+    enabled: true
+
+  # Питомцев можно призывать к игроку с помощью козьего рога.
+  call-your-pets:
+    enabled: true
+    call-radius: 64
+    stop-distance: 4
+    follow-time: 100
+
+  # Отображает координаты и направление взгляда в панели действий (action bar).
+  # /coordinatehud (право: survivalunlocked.coordinatehud)
+  coordinate-hud:
+    enabled: true
+    format: <x> <y> <z>  <yellow><direction>
+    refresh-interval: 2
+
+  # Создание порталов в Незер любой произвольной формы, в том числе из плачущего обсидиана.
+  custom-shaped-portals:
+    enabled: true
+    minimum-portal-size: 6
+    maximum-portal-width: 21
+    maximum-portal-height: 21
+
+  # Делает рамки невидимыми при клике ножницами.
+  invisible-item-frames:
+    enabled: true
+
+  # Запирание сундуков кликом с зажатым Shift при помощи ключа испытаний.
+  lock-chests:
+    enabled: true
+
+  # Мобы имеют шанс выронить свою голову при смерти. Шансы настраиваются в heads.yml.
+  more-mob-heads:
+    enabled: true
+
+  # Игроки роняют свои головы при убийстве другим игроком.
+  player-head-drops:
+    enabled: true
+
+  # Прижигание лоз огнивом для остановки их дальнейшего роста.
+  scorch-vines:
+    enabled: true
+
+  # Снятие бирок с мобов кликом ножницами.
+  shear-name-tags:
+    enabled: true
+
+  # Использование бирки с именем silence заглушает моба, а unsilence возвращает звуки.
+  silence-mobs:
+    enabled: true
+
+  # Добыча картин инструментом с Шелковым касанием для сбора конкретного варианта картины.
+  silk-touch-paintings:
+    enabled: true
+
+  # Добыча спавнеров мобов инструментом с Шелковым касанием в качестве декоративного блока.
+  silk-touch-spawners:
+    enabled: true
+
+  # Плавная анимация пропуска ночи, когда достаточное количество игроков спит.
+  smooth-sleep-transition:
+    enabled: true
+    time-rate: 120
+
+  # Игроки могут метать огненные шары прямо из руки.
+  throwable-fireballs:
+    enabled: true
+
+  # Передача питомцев между игроками кликом с зажатым Shift, держа питомца на поводке.
+  transfer-your-pets:
+    enabled: true
+
+  # Жители следуют за игроками, которые держат в руках изумрудные блоки.
+  villagers-follow-emeralds:
+    enabled: true
+    follow-speed: 0.6
+
+  # Всадник-зомби на зомби-лошади может появиться от удара молнии во время грозы.
+  zombie-horse:
+    enabled: false
